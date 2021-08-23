@@ -1,0 +1,56 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background: rgb(61, 87, 166);
+}
+
+h1{
+  font-family: 'RocknRoll One';
+  font-size: 2.8em;
+  margin: 60px;
+}
+
+img {
+  /* border: 2px solid purple; */
+  width: 25%;
+  position: relative;
+}
+
+#andre_valg > div > img{
+  width: 20%;
+  position: relative;
+  visibility: hidden;
+}
+
+
+.flex-div{
+  width: auto;
+  height: 100vh;
+  /* 'vh' stands for viewport height of the browser window.
+  Responsive to resizing of browser and mobile devices. */
+
+  display: flex;
+  flex-direction: column;
+}
+
+.flex{
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: calc(100vh / 3);
+}
+
+#andre_valg{
+}
+
+#andre_valg > div {
+  padding-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
